@@ -1,0 +1,128 @@
+*{
+    font-family: 'Poppins', sans-serif;;
+}
+.product{
+    border: 1px solid #eaeaec;
+    margin: -1px 19px 3px -1px;
+    padding: 10px;
+    text-align: center;
+    background-color: #efefef;
+}
+.product {
+    margin-bottom: 100px;
+}
+table, th, tr{
+    text-align: center;
+}
+.title2{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+h2{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+table th{
+    background-color: #efefef;
+}
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(14, 119, 19, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(6, 167, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #1cca6a;
+    color: #006811;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+}
